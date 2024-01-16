@@ -75,7 +75,10 @@ h2 {
     content: "";
     position: absolute;
     inset: 0;
-    background: #404040;
+    /*background: #404040;*/
+    background-image: url(/src/img/interrogacao.png);
+    background-size: 100px;
+    
     /*opacity: 0.85;*/
     transition: 0.25s;
     transform: rotateY(0deg);
